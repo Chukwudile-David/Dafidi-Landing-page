@@ -1,0 +1,248 @@
+body{
+    background-color: #f9f9f9;
+}
+
+div#parent {
+    height: 1000px;
+    background: url(../assets/model1.jpg);
+    background-size: contain;
+    background-position-y: -220px;
+    background-position-x: 100px;
+    position: relative;
+}
+div#parent header{
+   font-family: Arial, Helvetica, sans-serif;
+    color: #f9f9f9;
+    padding: 60px 0px;
+}
+div#parent header .logo{
+    text-transform: lowercase;
+    font-size: 20px;
+}
+div#parent header nav{
+    float: right;
+}
+div#parent header nav ul li{
+    float: left;
+    list-style: none;
+}
+
+div#parent header nav ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 15px;
+    font-weight: 600px;
+    padding-left: 40px;
+    color: #f9f9f9;
+}
+
+div#parent header nav ul li a i{
+    font-weight: 600px;
+    padding-left: 40px;
+}
+div#parent section{
+    position: relative;
+    top: 100px;
+    
+}
+div#parent section .title{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: #f9f9f9;
+    padding-left: 130px;
+}
+div#parent section .title h4{
+    font-size: 14px;
+    color: #f9f9f9;
+}
+div#parent section .title h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: #f9f9f9;
+    margin-bottom: 30px;
+    line-height: 100px;
+}
+div#parent section .content{
+    color: #f9f9f9;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+div#parent section .content h5{
+    color: #f9f9f9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #aaaaaa;
+}
+div#parent section .content p{
+    color: #f9f9f9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+div#parent section .btn{
+    margin-top: 20px;
+    display: flex;
+    
+}
+div#parent section .btn a{
+   text-decoration: none;
+   font-size: 20px;
+   height: 15px;
+   width: 15px;
+   background:#f9f9f9;
+   border-radius: 50px;
+   padding: 8px;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid black;
+   transition: all 250ms ease-in-out;
+    
+}
+div#parent section .btn a:first-child{
+    margin-right: 10px;
+    color: #f44366;
+    border: 1px solid #f44366
+
+   
+    
+}
+div#parent section .btn a:last-child{
+    margin-right: 10px;
+    color: #4CAF50;
+    border: 1px solid #4CAF50
+
+    
+}
+div#parent section .btn a:first-child:hover{
+    background-color:#f44366 ;
+    color: #fff;
+    
+
+   
+    
+}
+div#parent section .btn a:last-child:hover{
+    background-color:#4CAF50 ;
+    color: #fff;
+}
+div#parent section aside {
+    color: #fff;
+    transform-origin: right;
+    transform: rotate(90deg);
+    position: relative;
+    top: 500px;
+   
+}
+div#parent section aside ul li{
+    display: inline-block;
+    margin-right: 70px;
+}
+div#parent section aside ul li a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f9f9f9;
+    text-transform: capitalize;
+}
+div#parent footer{
+height: 170px;
+position: absolute;
+bottom: 0px;
+width: 100%;
+}
+div#parent footer .left{
+height: inherit;
+width: 100%;
+background-color: #dbd6d6;
+}
+div#parent footer .right{
+height: inherit;
+width: 50%;
+background-color: #273238;
+position: absolute;
+right: 0;
+bottom: 0;
+}
+div#parent footer .left .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 140px;
+}
+div#parent footer .left .content h1{
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div#parent footer .left .content a{
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: #6b6b6b;
+}
+div#parent footer .left .content a:hover{
+    color: #000;
+}
+div#parent footer .left .content h4{
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace
+}
+div#parent footer .foo{
+    position: relative;
+    z-index: 3;
+}
+div#parent footer .foo.pic{
+    position: relative;
+    height: 170px;
+    width: 100%;
+    bottom: 30px;
+    overflow: hidden;
+
+}
+div#parent footer .foo.btn{
+    display: flex;
+    bottom: 30px;
+    margin-left: -100px;
+
+}
+div#parent footer .foo.btn button{
+    border: none;
+    background-color: #273238;
+    color: #fff;
+    padding: 18px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 250ms ease-in-out;
+
+}
+div#parent footer .foo.btn button i{
+    font-weight: 600;
+    }
+div#parent footer .foo.btn button:hover{
+    background-color: #192125;
+    }
+div#parent footer .foo.text{
+    padding-left: 20px;
+    }
+div#parent footer .foo.text h4{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase; 
+    margin-bottom: 15px;
+    font-size: 13px;
+    margin-left: -100px;
+ }
+div#parent footer .foo.text p{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 12px;
+    font-size: 13px;
+    margin-left: -100px;
+    line-height: 18px;
+ }
+
+

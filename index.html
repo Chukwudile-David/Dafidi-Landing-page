@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>    
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/unsemantic-grid-responsive-tablet.css" />
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+   <div id="parent">
+    <header>
+        <div class="grid-container">
+            <div class="grid-30">
+                <div class="logo">
+                    <h1>Dafidi</h1>
+                </div>
+            </div>
+            <div class="grid-70">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#"><i class="la la-search"></i></a></li>
+                        <li><a href="#"><i class="la la-navicon"></i></a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="grid-container">
+            <div class="grid-50">
+                <div class="title">
+                    <h4>sleek</h4>
+                    <h1>Tranquility</h1>
+                </div>
+                <div class="content">
+                    <h5>wire</h5>
+                    <div class="grid-50 grid-parent">
+                        <p>Nobody can bring you peace but yourself</p>
+                    </div>
+                    <div class="grid-50 grid-parent">
+                        <p>Do not let the behavior of others destroy your inner peace</p>
+                    </div>
+                </div>
+                
+                <div class="btn">
+                    <a href="#"><i class="la la-youtube-play "></i></a>
+                    <a href="#"><i class="la la-spotify "></i></a>
+
+                </div>
+            </div>
+            <div class="grid-50">
+                <aside>
+                    <ul>
+                        <li><a href="#">facebook</a></li>
+                        <li><a href="#">instagram</a></li>
+                        <li><a href="#">twitter</a></li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="left">
+            <div class="grid-container">
+                <div class="grid-50 grid-parent">
+                    <div class="grid-33">
+                        <div class="content">
+                            <h1>16:00</h1>
+                        <h4>06 Nov Bigdave-Arena</h4>
+                        </div>
+                        
+                    </div>
+                    <div class="grid-33">
+                        <div class="content">
+                        <a href="#">Eniola</a>
+                        <h4>Event Co-ordinator</h4>
+                        </div>
+                        
+                    </div>
+                    <div class="grid-33">
+                        <div class="content">
+                            <a href="#">Seyii</a>
+                        <h4>Tech Advisor</h4>
+
+                        </div>
+                        
+                    </div>
+               </div>
+            <div class="grid-50 grid-parent">
+               <div class="grid-50 grid-parent">
+                <div class="foo pic">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slides">
+                                <img src="assets/model21.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="grid-50 grid-parent">
+                <div class="foo btn">
+                    <button >
+                        <i class="la la-angle-left"></i>
+                        
+                    </button>
+                    <button>
+                        <i class="la la-angle-right"></i>
+                        
+                    </button>
+                </div>
+                <div class="foo text">
+                    <h4>Advice</h4>
+                    <p>Every breath we take, every step we make, can be filled with peace, joy and serenity</p>
+                </div>
+            </div>
+               </div>
+            </div>
+        </div>
+        <div class="right"></div>
+    </footer>
+
+
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js">
+    import Swiper from 'swiper/swiper-bundle.esm.js';
+    import 'swiper/swiper-bundle.css';
+    var swiper = new Swiper('.swiper', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+   </script>
+</body>
+</html>
